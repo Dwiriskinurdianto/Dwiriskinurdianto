@@ -1,0 +1,30 @@
+var hari = { "namahari" : "senin", "namabulan" : "Agustus", "waktu" : function()
+
+{
+
+var d= new Date();
+
+var jam d.getHours(); = if (jam >= 8 && jam < 12)
+
+{ return "Pagi Hari"
+
+} else if (jam >= 12 && jam <=18) {
+
+return "Sore Hari"
+
+}
+
+else if (jam > 18 && jam <= 24)
+
+{ return "Malam Hari"
+
+} else
+
+{
+
+return "waktu tidak tersedia'
+}
+}
+};
+
+console.log(hari.waktu());
